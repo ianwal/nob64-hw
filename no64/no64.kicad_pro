@@ -473,6 +473,121 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 16,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "A",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "B",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "Cdown",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "Cleft",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "Cright",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "Cup",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "Ddown",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 9,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "Dleft",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 12,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "Dright",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 10,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "Dup",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 11,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 15,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "line_style": 0,
+        "name": "JOY_XA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 18,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "JOY_XB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 17,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "JOY_YA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 14,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "JOY_YB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 13,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "L",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "START",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -480,7 +595,92 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "3V3",
+        "pattern": "/3V3"
+      },
+      {
+        "netclass": "JOY_XA",
+        "pattern": "/JOY_XA"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "JOY_XB",
+        "pattern": "/JOY_XB"
+      },
+      {
+        "netclass": "JOY_YA",
+        "pattern": "/JOY_YA"
+      },
+      {
+        "netclass": "JOY_YB",
+        "pattern": "/JOY_YB"
+      },
+      {
+        "netclass": "Dup",
+        "pattern": "/Dup"
+      },
+      {
+        "netclass": "Dright",
+        "pattern": "/Dright"
+      },
+      {
+        "netclass": "Ddown",
+        "pattern": "/Ddown"
+      },
+      {
+        "netclass": "Cleft",
+        "pattern": "/Cleft"
+      },
+      {
+        "netclass": "Cup",
+        "pattern": "/Cup"
+      },
+      {
+        "netclass": "Cright",
+        "pattern": "/Cright"
+      },
+      {
+        "netclass": "Cdown",
+        "pattern": "/Cdown"
+      },
+      {
+        "netclass": "Dleft",
+        "pattern": "/Dleft"
+      },
+      {
+        "netclass": "START",
+        "pattern": "/START"
+      },
+      {
+        "netclass": "B",
+        "pattern": "/B"
+      },
+      {
+        "netclass": "A",
+        "pattern": "/A"
+      },
+      {
+        "netclass": "L",
+        "pattern": "/L"
+      },
+      {
+        "netclass": "R",
+        "pattern": "/R"
+      },
+      {
+        "netclass": "Dright",
+        "pattern": "/Ddown"
+      },
+      {
+        "netclass": "Cdown",
+        "pattern": "/Ddown"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
