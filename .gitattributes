@@ -1,0 +1,6 @@
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.kicad_pcb -diff
+*.kicad_sch -diff
+*.kicad_prl -diff

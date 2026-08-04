@@ -1,6 +1,12 @@
 # nob64 HW
 
-Seperate repository for the hardware used in the nob64 controller.
+Separate repository for the hardware used in the nob64 controller PCB.
+
+This is a WIP. Nothing has been tested yet.
+
+![PCB Front](./pcb-front.png)
+
+![PCB Back](./pcb-back.png)
 
 ## Resources
 
