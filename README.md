@@ -24,3 +24,4 @@ https://github.com/PhobGCC/PhobGCC-HW
 ## Attribution
 
 - [PhobGCC HW Button Pads](https://github.com/PhobGCC/PhobGCCv2-HW)
+- [Pico STEP 3D model](https://pip.raspberrypi.com/documents/RP-008318-DS)
