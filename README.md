@@ -14,3 +14,7 @@ https://github.com/PhobGCC/PhobGCC-HW
 - [ ] USB-C to N64 support
 - [ ] USB-C to USB-A support for PC
   - It only needs one of the signals in the differential pair, use this for port detection
+
+## Attribution
+
+- [PhobGCC HW Button Pads](https://github.com/PhobGCC/PhobGCCv2-HW)
